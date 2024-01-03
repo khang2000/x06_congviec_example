@@ -23,7 +23,9 @@ function sumFromZeroToN(n) {
   }
   return sum;
 }
-console.log(sumFromZeroToN(10));
+sumFromZeroToN(3);
+console.log(sumFromZeroToN(6));
+console.log(sumFromZeroToN(7));
 
 let numbers = [1, 2, 3, 4, 5];
 
