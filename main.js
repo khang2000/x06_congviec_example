@@ -26,7 +26,7 @@ function sumFromZeroToN(n) {
 sumFromZeroToN(3);
 console.log(sumFromZeroToN(6));
 console.log(sumFromZeroToN(7));
-
+console.log(sumFromZeroToN(9));
 let numbers = [1, 2, 3, 4, 5];
 
 // xóa phần tử đầu tiên của mảng
