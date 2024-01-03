@@ -29,6 +29,7 @@ console.log(sumFromZeroToN(6));
 console.log(sumFromZeroToN(7));
 console.log(sumFromZeroToN(9));
 console.log(sumFromZeroToN(10));
+console.log(sumFromZeroToN(11));
 
 let numbers = [1, 2, 3, 4, 5];
 
