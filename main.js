@@ -23,10 +23,13 @@ function sumFromZeroToN(n) {
   }
   return sum;
 }
+
 sumFromZeroToN(3);
 console.log(sumFromZeroToN(6));
 console.log(sumFromZeroToN(7));
 console.log(sumFromZeroToN(9));
+console.log(sumFromZeroToN(10));
+
 let numbers = [1, 2, 3, 4, 5];
 
 // xóa phần tử đầu tiên của mảng
