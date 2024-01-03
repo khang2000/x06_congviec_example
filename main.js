@@ -15,3 +15,9 @@ if (comparison === 0) {
 } else {
   console.log("Chuỗi B đứng trước chuỗi A.");
 }
+
+let numbers = [1, 2, 3, 4, 5];
+
+// xóa phần tử đầu tiên của mảng
+numbers.shift();
+console.log(numbers); // Kết quả: [2, 3, 4, 5]
