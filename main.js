@@ -16,6 +16,14 @@ if (comparison === 0) {
   console.log("Chuỗi B đứng trước chuỗi A.");
 }
 
+function sumFromZeroToN(n) {
+  let sum = 0;
+  for (let i = 0; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
+sumFromZeroToN(3);
 let numbers = [1, 2, 3, 4, 5];
 
 // xóa phần tử đầu tiên của mảng
