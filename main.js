@@ -25,11 +25,13 @@ function sumFromZeroToN(n) {
 }
 
 sumFromZeroToN(3);
-console.log(sumFromZeroToN(6));
-console.log(sumFromZeroToN(7));
-console.log(sumFromZeroToN(9));
-console.log(sumFromZeroToN(10));
-console.log(sumFromZeroToN(11));
+
+const number = [4, 2, 5, 1, 3];
+
+// Sắp xếp mảng theo thứ tự tăng dần
+number.sort((a, b) => a - b);
+
+console.log(number); // Kết quả sẽ là [1, 2, 3, 4, 5]
 
 let numbers = [1, 2, 3, 4, 5];
 
