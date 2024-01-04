@@ -6,7 +6,9 @@ console.log(position); // Kết quả: 2
 
 let strA = "apple";
 let strB = "banana";
-
+let strC = "potato";
+const arrStr = [strA, strB, strC];
+console.log(arrStr.sort((a, b) => a.localeCompare(b)));
 let comparison = strA.localeCompare(strB);
 if (comparison === 0) {
   console.log("Chuỗi bằng nhau.");
@@ -23,13 +25,7 @@ function sumFromZeroToN(n) {
   }
   return sum;
 }
-
-sumFromZeroToN(3);
-console.log(sumFromZeroToN(6));
-console.log(sumFromZeroToN(7));
-console.log(sumFromZeroToN(9));
 console.log(sumFromZeroToN(10));
-console.log(sumFromZeroToN(11));
 
 let numbers = [1, 2, 3, 4, 5];
 
